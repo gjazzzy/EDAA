@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.min.css">
+   <title>Админ панель</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <div class="header__wrap">
+            <div class="header__btns">
+               <button class="header__btn header__btn-users">
+                  Пользователи
+                  <img class="header__btn-img" src="images/icons/DownArrow.svg" alt="#">
+               </button>
+               <button class="header__btn header__btn-goods">
+                  Товары
+                  <img class="header__btn-img" src="images/icons/DownArrow.svg" alt="#">
+               </button>
+               <button class="header__btn header__btn-odr">
+                  Заказы
+                  <img class="header__btn-img" src="images/icons/DownArrow.svg" alt="#">
+               </button>
+
+               <button class="header__btn header__btn-class">
+                  Категории
+                  <img class="header__btn-img" src="images/icons/DownArrow.svg" alt="#">
+               </button>
+               <div class="search__wrapper">
+                  <button class="search__wrapper-btn">
+                     <img class="search__image" src="images/icons/icon-search.svg" alt="search">
+                  </button>
+                  <input class="search__wrapper-input" placeholder="Искать" type="search" />
+               </div>
+               <!-- /.search__wrapper-->
+            </div>
+            <!-- /.header__bottom-btns -->
+         </div>
+         <!-- /.header__wrap -->
+      </div>
+      <!-- /.container -->
+   </header>
+   <!-- /.header -->
+
+   <section class="goods">
+      <div class="container">
+         <div class="goods__wrap">
+
+            <div class="goods__top">
+               <div class="goods__item-pich">
+                  Изображение
+               </div>
+
+               <div class="goods__item-name">
+                  Название / код
+                  <img class="item__arrow" src="images/icons/DownArrow.svg" alt="#">
+               </div>
+               <!-- /.goods__item-name -->
+
+               <div class="goods__item-price">
+                  Цена
+                  <img class="item__arrow" src="images/icons/DownArrow.svg" alt="#">
+               </div>
+               <!-- /.goods__item-price -->
+
+               <div class="goods__item-count">
+                  Количество(шт)
+                  <img class="item__arrow" src="images/icons/DownArrow.svg" alt="#">
+               </div>
+               <!-- /.goods__item-count -->
+
+               <div class="goods__item-status">
+                  Статус(Вкл)
+               </div>
+               <!-- /.goods__item-status -->
+
+               <div class="goods__item-sale">
+                  Скидка (%)
+               </div>
+               <!-- /.goods__item-sale -->
+
+               <div class="goods__item-add">
+                  <img src="images/icons/icon-add.svg" alt="#">
+               </div>
+               <!-- /.goods__item-sale -->
+            </div>
+            <!-- /.goods__top -->
+
+
+            <div class="goods__item">
+
+               <div class="goods__item-img">
+                  <img src="images/content/category-21.jpg" alt="#">
+               </div>
+               <!-- /.goods__item-img -->
+
+               <div class="goods__item-name">
+                  Энергетик Adrenaline Rush
+                  <div class="goods__item-cod">001</div>
+               </div>
+               <!-- /.goods__item-name -->
+
+               <div class="goods__item-price">
+                  129 ₽
+               </div>
+               <!-- /.goods__item-price -->
+
+               <div class="goods__item-count">
+                  300 шт
+               </div>
+               <!-- /.goods__item-count -->
+
+               <div class="goods__item-status">
+                  <input type="checkbox">
+               </div>
+               <!-- /.goods__item-status -->
+
+
+               <div class="goods__item-sale">
+                  <input type="range" min="0" max="50" value="0" class="slider goods-sale">
+                  <div class="goods-sale-count"></div>
+               </div>
+               <!-- /.goods__item-sale -->
+
+               <div class="goods__btns">
+                  <button class="goods__btn-del goods__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+
+                  <button class="goods__btn-edit goods__btn ">
+                     <img src="images/icons/icon-edit.svg" alt="#">
+                  </button>
+               </div>
+               <!-- ./goods__btns -->
+
+            </div>
+            <!-- /.goods__item -->
+
+
+            <div class="pagination">
+               <div class="pagination__wrap">
+                  <a href="#">&laquo;</a>
+                  <a href="#">1</a>
+                  <a class="active" href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">&raquo;</a>
+               </div>
+            </div>
+            <!-- /.pagination__wrap -->
+
+         </div>
+         <!-- /.goods__wrap -->
+      </div>
+      <!-- /.container -->
+   </section>
+   <!-- /.main -->
+
+   <section class="ord">
+      <div class="container">
+         <div class="ord__wrap">
+
+            <div class="ord__top">
+               <div class="ord__item-user">ID Пользователя</div>
+               <div class="ord__item-goods">ID Заказа</div>
+               <div class="ord__item-time">Дата и время</div>
+               <ord class="ord__item-price">Цена</ord>
+               <div class="odr__item-pay">Способ оплаты</div>
+               <!-- /.ord__goods -->
+            </div>
+            <!-- /.ord__top -->
+
+            <div class="ord__item">
+               <div class="ord__item-user">ID 201</div>
+               <div class="ord__item-goods">ID 09093232</div>
+               <div class="ord__item-time">20.20.2020 20:30</div>
+               <ord class="ord__item-price">243 ₽</ord>
+               <div class="odr__item-pay">Карта</div>
+               <!-- /.ord__goods -->
+            </div>
+            <!-- /.ord__item -->
+
+            <div class="pagination">
+               <div class="pagination__wrap">
+                  <a href="#">&laquo;</a>
+                  <a href="#">1</a>
+                  <a class="active" href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">&raquo;</a>
+               </div>
+            </div>
+
+         </div>
+         <!-- /.ord__wrap -->
+      </div>
+      <!-- /.container -->
+   </section>
+   <!-- /.ord -->
+
+   <section class="users">
+      <div class="container">
+         <div class="users__wrap">
+            <div class="users__top">
+               <div class="users__item-name">
+                  Имя Пользователя
+               </div>
+               <div class="users__item-id">
+                  ID Пользователя
+               </div>
+
+               <div class="users__item-nember">
+                  Тел. Пользователя
+               </div>
+
+               <div class="users__item-discount">
+                  Скидака Пользователя (%)
+               </div>
+
+               <div class="users__item-del">
+                  Заблокировать
+               </div>
+               <!-- /.users__item-del -->
+
+            </div>
+            <!-- /.users__top -->
+
+            <div class="users__item">
+               <div class="users__item-name">
+                  Григорий
+               </div>
+               <div class="users__item-id">
+                  ID 201
+               </div>
+
+               <div class="users__item-nember">
+                  +79105439432
+               </div>
+
+               <div class="users__item-sale">
+                  <input type="range" min="0" max="25" value="0" class="slider users-sale">
+                  <div class="users-sale-count"></div>
+               </div>
+               <!-- /.goods__item-sale -->
+
+               <div class="users__item-del">
+                  <button class="user__btn-del goods__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+               </div>
+               <!-- /.users__item-del -->
+            </div>
+            <!-- /.users__item -->
+
+            <div class="pagination">
+               <div class="pagination__wrap">
+                  <a href="#">&laquo;</a>
+                  <a href="#">1</a>
+                  <a class="active" href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">&raquo;</a>
+               </div>
+            </div>
+
+         </div>
+         <!-- /.users__wrap -->
+      </div>
+      <!-- /.container -->
+   </section>
+   <!-- /.users -->
+
+   <section class="class">
+      <div class="container">
+         <div class="class__wrap">
+
+            <div class="class__top">
+
+               <div class="class__item-pich">
+                  Изображение
+               </div>
+
+               <div class="class__item-name">
+                  Категория
+               </div>
+
+               <div class="class__item-subclass">
+                  Подкатигория
+               </div>
+
+               <div class="class__item-btns">
+                  <div class="class__item-add">
+                     <img src="images/icons/icon-add.svg" alt="#">
+                  </div>
+                  <!-- /.goods__item-sale -->
+               </div>
+
+            </div>
+            <!-- /.class__top -->
+
+            <div class="class__item">
+               <div class="class__item-img">
+                  <img src="images/content/category-24.jpg" alt="#">
+               </div>
+
+               <div class="class__item-name">
+                  Вода и напитки
+               </div>
+
+               <div class="class__item-subclass">
+                  <p>вода</p>
+                  <p>Соки и морсы</p>
+                  <p>Кола и лимонады</p>
+                  <p>Энергетики</p>
+                  <p>Чай и кофе</p>
+               </div>
+
+               <div class="class__item-btns">
+                  <button class="class__btn-del class__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+
+                  <button class="class__btn-edit class__btn ">
+                     <img src="images/icons/icon-edit.svg" alt="#">
+                  </button>
+               </div>
+
+            </div>
+            <!-- /.class__item -->
+
+            <div class="class__item">
+               <div class="class__item-img">
+                  <img src="images/content/category-24.jpg" alt="#">
+               </div>
+
+               <div class="class__item-name">
+                  Вода и напитки
+               </div>
+
+               <div class="class__item-subclass">
+                  <p>вода</p>
+                  <p>Соки и морсы</p>
+                  <p>Кола и лимонады</p>
+                  <p>Энергетики</p>
+                  <p>Чай и кофе</p>
+               </div>
+
+               <div class="class__item-btns">
+                  <button class="class__btn-del class__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+
+                  <button class="class__btn-edit class__btn ">
+                     <img src="images/icons/icon-edit.svg" alt="#">
+                  </button>
+               </div>
+
+            </div>
+            <!-- /.class__item -->
+
+            <div class="class__item">
+               <div class="class__item-img">
+                  <img src="images/content/category-24.jpg" alt="#">
+               </div>
+
+               <div class="class__item-name">
+                  Вода и напитки
+               </div>
+
+               <div class="class__item-subclass">
+                  <p>вода</p>
+                  <p>Соки и морсы</p>
+                  <p>Кола и лимонады</p>
+                  <p>Энергетики</p>
+                  <p>Чай и кофе</p>
+               </div>
+
+               <div class="class__item-btns">
+                  <button class="class__btn-del class__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+
+                  <button class="class__btn-edit class__btn ">
+                     <img src="images/icons/icon-edit.svg" alt="#">
+                  </button>
+               </div>
+
+            </div>
+            <!-- /.class__item -->
+
+            <div class="class__item">
+               <div class="class__item-img">
+                  <img src="images/content/category-24.jpg" alt="#">
+               </div>
+
+               <div class="class__item-name">
+                  Вода и напитки
+               </div>
+
+               <div class="class__item-subclass">
+                  <p>вода</p>
+                  <p>Соки и морсы</p>
+                  <p>Кола и лимонады</p>
+                  <p>Энергетики</p>
+                  <p>Чай и кофе</p>
+               </div>
+
+               <div class="class__item-btns">
+                  <button class="class__btn-del class__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+
+                  <button class="class__btn-edit class__btn ">
+                     <img src="images/icons/icon-edit.svg" alt="#">
+                  </button>
+               </div>
+
+            </div>
+            <!-- /.class__item -->
+
+            <div class="class__item">
+               <div class="class__item-img">
+                  <img src="images/content/category-24.jpg" alt="#">
+               </div>
+
+               <div class="class__item-name">
+                  Вода и напитки
+               </div>
+
+               <div class="class__item-subclass">
+                  <p>вода</p>
+                  <p>Соки и морсы</p>
+                  <p>Кола и лимонады</p>
+                  <p>Энергетики</p>
+                  <p>Чай и кофе</p>
+               </div>
+
+               <div class="class__item-btns">
+                  <button class="class__btn-del class__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+
+                  <button class="class__btn-edit class__btn ">
+                     <img src="images/icons/icon-edit.svg" alt="#">
+                  </button>
+               </div>
+
+            </div>
+            <!-- /.class__item -->
+
+            <div class="class__item">
+               <div class="class__item-img">
+                  <img src="images/content/category-24.jpg" alt="#">
+               </div>
+
+               <div class="class__item-name">
+                  Вода и напитки
+               </div>
+
+               <div class="class__item-subclass">
+                  <p>вода</p>
+                  <p>Соки и морсы</p>
+                  <p>Кола и лимонады</p>
+                  <p>Энергетики</p>
+                  <p>Чай и кофе</p>
+               </div>
+
+               <div class="class__item-btns">
+                  <button class="class__btn-del class__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+
+                  <button class="class__btn-edit class__btn ">
+                     <img src="images/icons/icon-edit.svg" alt="#">
+                  </button>
+               </div>
+
+            </div>
+            <!-- /.class__item -->
+
+            <div class="class__item">
+               <div class="class__item-img">
+                  <img src="images/content/category-24.jpg" alt="#">
+               </div>
+
+               <div class="class__item-name">
+                  Вода и напитки
+               </div>
+
+               <div class="class__item-subclass">
+                  <p>вода</p>
+                  <p>Соки и морсы</p>
+                  <p>Кола и лимонады</p>
+                  <p>Энергетики</p>
+                  <p>Чай и кофе</p>
+               </div>
+
+               <div class="class__item-btns">
+                  <button class="class__btn-del class__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+
+                  <button class="class__btn-edit class__btn ">
+                     <img src="images/icons/icon-edit.svg" alt="#">
+                  </button>
+               </div>
+
+            </div>
+            <!-- /.class__item -->
+
+            <div class="class__item">
+               <div class="class__item-img">
+                  <img src="images/content/category-24.jpg" alt="#">
+               </div>
+
+               <div class="class__item-name">
+                  Вода и напитки
+               </div>
+
+               <div class="class__item-subclass">
+                  <p>вода</p>
+                  <p>Соки и морсы</p>
+                  <p>Кола и лимонады</p>
+                  <p>Энергетики</p>
+                  <p>Чай и кофе</p>
+               </div>
+
+               <div class="class__item-btns">
+                  <button class="class__btn-del class__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+
+                  <button class="class__btn-edit class__btn ">
+                     <img src="images/icons/icon-edit.svg" alt="#">
+                  </button>
+               </div>
+
+            </div>
+            <!-- /.class__item -->
+
+            <div class="class__item">
+               <div class="class__item-img">
+                  <img src="images/content/category-24.jpg" alt="#">
+               </div>
+
+               <div class="class__item-name">
+                  Вода и напитки
+               </div>
+
+               <div class="class__item-subclass">
+                  <p>вода</p>
+                  <p>Соки и морсы</p>
+                  <p>Кола и лимонады</p>
+                  <p>Энергетики</p>
+                  <p>Чай и кофе</p>
+               </div>
+
+               <div class="class__item-btns">
+                  <button class="class__btn-del class__btn">
+                     <img src="images/icons/icon-del.svg" alt="#">
+                  </button>
+
+                  <button class="class__btn-edit class__btn ">
+                     <img src="images/icons/icon-edit.svg" alt="#">
+                  </button>
+               </div>
+
+            </div>
+            <!-- /.class__item -->
+
+         </div>
+         <!-- /.class__wrap -->
+      </div>
+      <!-- /.container -->
+   </section>
+   <!-- /.class -->
+
+
+   <!-- MODAL WINDOW -->
+   <div class="add modal">
+      <div class="add__wrap">
+         <h2 class="add__title">Создание</h2>
+         <!-- /.add__title -->
+         <div class="add__items">
+
+            <div class="add__input-item">
+               <p class="add__input-text">Загрузите картинку</p>
+               <input class="add__input" type="file" accept="image/*,image/jpeg">
+            </div>
+            <!-- /.add__input-item -->
+
+            <div class="add__input-item">
+               <p class="add__input-text">Название</p>
+               <input class="add__input" type="text">
+            </div>
+            <!-- /.add__input-item -->
+
+            <div class="add__input-item">
+               <p class="add__input-text">Код</p>
+               <input class="add__input" type="text">
+            </div>
+            <!-- /.add__input-item -->
+
+            <div class="add__input-item">
+               <p class="add__input-text">Категория</p>
+               <input class="add__input" type="text">
+            </div>
+            <!-- /.add__input-item -->
+
+            <div class="add__input-item">
+               <p class="add__input-text">Подкатегория</p>
+               <input class="add__input" type="text">
+            </div>
+            <!-- /.add__input-item -->
+
+            <div class="add__input-item">
+               <p class="add__input-text">Цена</p>
+               <input class="add__input" type="text">
+            </div>
+            <!-- /.add__input-item -->
+
+            <div class="add__input-item">
+               <p class="add__input-text">Количество</p>
+               <input class="add__input" type="text">
+            </div>
+            <!-- /.add__input-item -->
+
+            <div class="add__input-item">
+               <p class="add__input-text">Оъем,л / Вес,г</p>
+               <input class="add__input" type="text">
+            </div>
+            <!-- /.add__input-item -->
+
+            <div class="add__input-item">
+               <p class="add__input-text">Описание</p>
+               <textarea class="add__form-textarea" placeholder="Описание">
+               </textarea>
+            </div>
+            <!-- /.add__input-item -->
+         </div>
+         <!-- /.add--items -->
+
+         <button class="add__btn button button-orange" type="submit">Создать</button>
+         <button class="add__btn-close close-btn">
+            <img src="images/icons/icon-close.svg" alt="#">
+         </button>
+      </div>
+      <!-- /.add__wrap -->
+   </div>
+   <!-- /.add -->
+
+   <div class="edit modal">
+      <div class="edit__wrap">
+         <h2 class="edit__title">Редакторивание</h2>
+         <div class="edit__items">
+
+            <div class="edit__input-item">
+               <p class="edit__input-text">Загрузите картинку</p>
+               <input class="edit__input" type="file" accept="image/*,image/jpeg">
+            </div>
+            <!-- /.edit__input-item -->
+
+            <div class="edit__input-item">
+               <p class="edit__input-text">Название</p>
+               <input class="edit__input" type="text">
+            </div>
+            <!-- /.edit__input-item -->
+
+            <div class="edit__input-item">
+               <p class="edit__input-text">Код</p>
+               <input class="edit__input" type="text">
+            </div>
+            <!-- /.edit__input-item -->
+
+            <div class="edit__input-item">
+               <p class="edit__input-text">Категория</p>
+               <input class="edit__input" type="text">
+            </div>
+            <!-- /.edit__input-item -->
+
+            <div class="edit__input-item">
+               <p class="edit__input-text">Подкатегория</p>
+               <input class="edit__input" type="text">
+            </div>
+            <!-- /.edit__input-item -->
+
+            <div class="edit__input-item">
+               <p class="edit__input-text">Цена</p>
+               <input class="edit__input" type="text">
+            </div>
+            <!-- /.edit__input-item -->
+
+            <div class="edit__input-item">
+               <p class="edit__input-text">Количество</p>
+               <input class="edit__input" type="text">
+            </div>
+            <!-- /.edit__input-item -->
+
+            <div class="edit__input-item">
+               <p class="edit__input-text">Оъем,л / Вес,г</p>
+               <input class="edit__input" type="text">
+            </div>
+            <!-- /.edit__input-item -->
+
+            <div class="edit__input-item">
+               <p class="edit__input-text">Описание</p>
+               <textarea class="edit__form-textarea" placeholder="Описание">
+               </textarea>
+            </div>
+            <!-- /.edit__input-item -->
+         </div>
+         <!-- /.edit--items -->
+
+         <button class="edit__btn button button-orange" type="submit">Сохранить</button>
+         <button class="edit__btn-close close-btn">
+            <img src="images/icons/icon-close.svg" alt="#">
+         </button>
+      </div>
+      <!-- /.edit__wrap -->
+   </div>
+   <!-- /.edit -->
+
+   <div class="class-edit modal">
+      <div class="class-edit__wrap">
+         <h2 class="class-edit__title">Редакторивание</h2>
+         <div class="class-edit__items">
+
+            <div class="class-edit__input-item">
+               <p class="class-edit__input-text">Загрузите картинку</p>
+               <input class="class-edit__input" type="file" accept="image/*,image/jpeg">
+            </div>
+            <!-- /.class-edit__input-item -->
+
+
+            <div class="class-edit__input-item">
+               <p class="class-edit__input-text">Категория</p>
+               <input class="class-edit__input" type="text">
+            </div>
+            <!-- /.class-edit__input-item -->
+
+            <div class="class-edit__input-item">
+               <p class="class-edit__input-text">Подкатегория</p>
+               <input class="class-edit__input" type="text">
+            </div>
+            <!-- /.class-edit__input-item -->
+
+         </div>
+         <!-- /.class-edit--items -->
+
+         <button class="class-edit__btn button button-orange" type="submit">Сохранить</button>
+         <button class="class-edit__btn-close close-btn">
+            <img src="images/icons/icon-close.svg" alt="#">
+         </button>
+      </div>
+      <!-- /.class-edit__wrap -->
+   </div>
+   <!-- /.class-edit -->
+
+   <div class="class-add modal">
+      <div class="class-add__wrap">
+         <h2 class="class-add__title">Создание</h2>
+         <div class="class-add__items">
+
+            <div class="class-add__input-item">
+               <p class="class-add__input-text">Загрузите картинку</p>
+               <input class="class-add__input" type="file" accept="image/*,image/jpeg">
+            </div>
+            <!-- /.class-add__input-item -->
+
+
+            <div class="class-add__input-item">
+               <p class="class-add__input-text">Категория</p>
+               <input class="class-add__input" type="text">
+            </div>
+            <!-- /.class-add__input-item -->
+
+            <div class="class-add__input-item">
+               <p class="class-add__input-text">Подкатегория</p>
+               <input class="class-add__input" type="text">
+            </div>
+            <!-- /.class-add__input-item -->
+
+         </div>
+         <!-- /.class-add--items -->
+
+         <button class="class-add__btn button button-orange" type="submit">Создать</button>
+         <button class="class-add__btn-close close-btn">
+            <img src="images/icons/icon-close.svg" alt="#">
+         </button>
+      </div>
+      <!-- /.class-add__wrap -->
+   </div>
+   <!-- /.class-add -->
+
+   </section>
+   <!-- /.desctop -->
+   </div>
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   <script type="text/javascript" src="js/slick.min.js"></script>
+   <script src="js/main.min.js"></script>
+   <script src="js/admin.js"></script>
+</body>
+
+</html>

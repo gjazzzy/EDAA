@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.min.css">
+   <link rel="icon" type="image/x-icon" href="images//icons/logo.svg">
+   <title>Главная страница</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <div class="header__wrap">
+            <a class="header__logo" href="admin.html">
+               <img src="images/icons/logo.svg" alt="#logo">
+            </a>
+
+            <div class="header__search--wrapper">
+               <button class="header__search--wrapper-btn">
+                  <img class="header__image-search" src="images/icons/icon-search.svg" alt="search">
+               </button>
+               <input class="header__search--wrapper-input" placeholder="Искать" type="search" />
+            </div>
+
+            <div class="header__btns">
+               <button class="header__btn-login header__btn">
+                  <img src="images/icons/icon-user.svg" alt="user">
+                  Войти
+               </button>
+
+               <button class="header__btn-reg header__btn">
+                  <img src="images/icons/icon-user.svg" alt="user">
+                  Регистрация
+               </button>
+
+               <button class="header__btn-cart header__btn">
+                  <img src="images/icons/icon-shopping-cart.svg" id="button-image" alt="#">
+                  <div class="header__counter">0</div>
+               </button>
+
+               <button class="header__btn-burger">
+                  <img class="header__burger-img" src="images/icons/burger-menu.svg" alt="#">
+               </button>
+               <!-- /.header__btn-burger -->
+            </div>
+            <!-- /.header__btns -->
+         </div>
+         <!-- /.header__wrap -->
+      </div>
+      <!-- /.container -->
+   </header>
+   <!-- /.header -->
+
+   <section class="desctop container">
+      <aside class="left">
+         <div class="left__sidebar">
+
+            <div class="left__sidebar-items">
+               <div class="left__sidebar-info" data-target="dropdown1">
+                  <img class="left__sidebar-img" src="images/content/category-8.jpg" alt="#">
+                  <b class="left__sidebar-name">Молоко, яйца и сыр</b>
+               </div>
+
+               <ul class="left__sidebar-menu" id="dropdown1">
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Молочное и яйца</a>
+                  </li>
+
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Йогурт и десерты</a>
+                  </li>
+
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Сыр</a>
+                  </li>
+
+               </ul>
+               <!-- /.left__sidebar-menu -->
+            </div>
+            <!-- /.left__sidebar-items -->
+
+            <div class="left__sidebar-items">
+               <div class="left__sidebar-info" data-target="dropdown2">
+                  <img class="left__sidebar-img" src="images/content/category-2.jpg" alt="#">
+                  <b class="left__sidebar-name">Овощи и фрукты</b>
+               </div>
+
+               <ul class="left__sidebar-menu" id="dropdown2">
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Овощи, грибы и зелень</a>
+                  </li>
+
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Фрукты и ягоды</a>
+                  </li>
+
+               </ul>
+               <!-- /.left__sidebar-menu -->
+            </div>
+            <!-- /.left__sidebar-items -->
+
+            <div class="left__sidebar-items">
+               <div class="left__sidebar-info" data-target="dropdown3">
+                  <img class="left__sidebar-img" src="images/content/category-31.jpg" alt="#">
+                  <b class="left__sidebar-name">Мясо и рыба</b>
+               </div>
+
+               <ul class="left__sidebar-menu" id="dropdown3">
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Мясо и птица</a>
+                  </li>
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Рыба и дары моря</a>
+                  </li>
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Колбаса и сосиски</a>
+                  </li>
+                  <!-- /.left__sidebar-item -->
+               </ul>
+               <!-- /.left__sidebar-menu -->
+
+            </div>
+            <!-- /.left__sidebar-items -->
+
+            <div class="left__sidebar-items">
+               <div class="left__sidebar-info" data-target="dropdown4">
+                  <img class="left__sidebar-img" src="images/content/category-24.jpg" alt="#">
+                  <b class="left__sidebar-name">Вода и напитки</b>
+               </div>
+
+               <ul class="left__sidebar-menu" id="dropdown4">
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Вода</a>
+                  </li>
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Соки и морсы</a>
+                  </li>
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Кола и лимонады</a>
+                  </li>
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Энергетики</a>
+                  </li>
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Чай и кофе</a>
+                  </li>
+
+               </ul>
+               <!-- /.left__sidebar-menu -->
+
+            </div>
+            <!-- /.left__sidebar-items -->
+
+            <div class="left__sidebar-items">
+               <div class="left__sidebar-info" data-target="dropdown5">
+                  <img class="left__sidebar-img" src="images/content/category-35.jpg" alt="#">
+                  <b class="left__sidebar-name">Сладкое</b>
+               </div>
+
+               <ul class="left__sidebar-menu" id="dropdown5">
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Мороженное</a>
+                  </li>
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Шоколад и печенье</a>
+                  </li>
+
+               </ul>
+               <!-- /.left__sidebar-menu -->
+
+            </div>
+            <!-- /.left__sidebar-items -->
+
+            <div class="left__sidebar-items">
+               <div class="left__sidebar-info" data-target="dropdown6">
+                  <img class="left__sidebar-img" src="images/content/category-7.jpg" alt="#">
+                  <b class="left__sidebar-name">Снэки</b>
+               </div>
+
+               <ul class="left__sidebar-menu" id="dropdown6">
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Чипсы</a>
+                  </li>
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Хлопья</a>
+                  </li>
+
+               </ul>
+               <!-- /.left__sidebar-menu -->
+
+            </div>
+            <!-- /.left__sidebar-items -->
+
+            <div class="left__sidebar-items">
+               <div class="left__sidebar-info" data-target="dropdown7">
+                  <img class="left__sidebar-img" src="images/content/category-33.jpg" alt="#">
+                  <b class="left__sidebar-name">Морозилка</b>
+               </div>
+
+               <ul class="left__sidebar-menu" id="dropdown7">
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Пельмени</a>
+                  </li>
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Почти готово</a>
+                  </li>
+               </ul>
+               <!-- /.left__sidebar-menu -->
+
+            </div>
+            <!-- /.left__sidebar-items -->
+
+            <div class="left__sidebar-items">
+               <div class="left__sidebar-info" data-target="dropdown8">
+                  <img class="left__sidebar-img" src="images/content/category-3.jpg" alt="#">
+                  <b class="left__sidebar-name">Для детей</b>
+               </div>
+
+               <ul class="left__sidebar-menu" id="dropdown8">
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Детское питание</a>
+                  </li>
+
+                  <li class="left__sidebar-item">
+                     <a class="left__sidebar-link" href="#">Детский уход</a>
+                  </li>
+               </ul>
+               <!-- /.left__sidebar-menu -->
+
+            </div>
+            <!-- /.left__sidebar-items -->
+
+         </div>
+         <!-- /.left__sidebar -->
+      </aside>
+      <!-- /.left -->
+
+      <main class="mian">
+
+         <div class="category">
+            <div class="category__items">
+               <h3 class="category__title">Молоко, яйца и сыр</h3>
+
+               <ul class="category__menu">
+                  <li class="category__item">
+                     <a class="category__link" href="#">Молочное и яйца</a>
+                     <img class="category__img" src="images/content/category-8.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Йогурт и десерты</a>
+                     <img class="category__img" src="images/content/category-22.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Сыр</a>
+                     <img class="category__img" src="images/content/category-38.jpg" alt="#">
+                  </li>
+
+               </ul>
+               <!-- /.category__menu -->
+            </div>
+            <!-- /.category__items -->
+
+            <div class="category__items">
+               <h3 class="category__title">Овощи и фрукты </h3>
+
+
+               <ul class="category__menu">
+                  <li class="category__item">
+                     <a class="category__link" href="#">Овощи, грибы и зелень</a>
+                     <img class="category__img" src="images/content/category-17.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Фрукты и ягоды</a>
+                     <img class="category__img" src="images/content/category-2.jpg" alt="#">
+                  </li>
+
+               </ul>
+               <!-- /.category__menu -->
+            </div>
+            <!-- /.category__items -->
+
+            <div class="category__items">
+               <h3 class="category__title">Мясо и рыба</h3>
+
+               <ul class="category__menu">
+                  <li class="category__item">
+                     <a class="category__link" href="#">Мясо и птица</a>
+                     <img class="category__img" src="images/content/category-33.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Рыба и дары моря</a>
+                     <img class="category__img" src="images/content/category-11.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Колбаса и сосиски</a>
+                     <img class="category__img" src="images/content/category-12.jpg" alt="#">
+                  </li>
+
+               </ul>
+               <!-- /.category__menu -->
+            </div>
+            <!-- /.category__items -->
+
+            <div class="category__items">
+               <h3 class="category__title">Вода и напитки</h3>
+
+               <ul class="category__menu">
+                  <li class="category__item">
+                     <a class="category__link" href="#">Вода</a>
+                     <img class="category__img" src="images/content/category-24.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Соки и морсы</a>
+                     <img class="category__img" src="images/content/category-30.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Кола и лимонады</a>
+                     <img class="category__img" src="images/content/category-5.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Энергетики</a>
+                     <img class="category__img" src="images/content/category-21.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Чай и кофе</a>
+                     <img class="category__img" src="images/content/category-32.jpg" alt="#">
+                  </li>
+
+               </ul>
+               <!-- /.category__menu -->
+            </div>
+            <!-- /.category__items -->
+
+            <div class="category__items">
+               <h3 class="category__title">Сладкое</h3>
+
+               <ul class="category__menu">
+                  <li class="category__item">
+                     <a class="category__link" href="#">Мороженное</a>
+                     <img class="category__img" src="images/content/category-4.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Шоколад и печенье</a>
+                     <img class="category__img" src="images/content/category-34.jpg" alt="#">
+                  </li>
+               </ul>
+               <!-- /.category__menu -->
+            </div>
+            <!-- /.category__items -->
+
+            <div class="category__items">
+               <h3 class="category__title">Морозилка</h3>
+
+               <ul class="category__menu">
+                  <li class="category__item">
+                     <a class="category__link" href="#">Пельмени</a>
+                     <img class="category__img" src="images/content/category-41.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Почти готово</a>
+                     <img class="category__img" src="images/content/category-39.jpg" alt="#">
+                  </li>
+               </ul>
+               <!-- /.category__menu -->
+            </div>
+            <!-- /.category__items -->
+
+            <div class="category__items">
+               <h3 class="category__title">Для детей</h3>
+
+               <ul class="category__menu">
+                  <li class="category__item">
+                     <a class="category__link" href="#">Детское питание</a>
+                     <img class="category__img" src="images/content/category-9.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Детский уход</a>
+                     <img class="category__img" src="images/content/category-3.jpg" alt="#">
+                  </li>
+               </ul>
+               <!-- /.category__menu -->
+            </div>
+            <!-- /.category__items -->
+
+            <div class="category__items">
+               <h3 class="category__title">Снэки</h3>
+
+               <ul class="category__menu">
+                  <li class="category__item">
+                     <a class="category__link" href="#">Чипсы</a>
+                     <img class="category__img" src="images/content/category-16.jpg" alt="#">
+                  </li>
+
+                  <li class="category__item">
+                     <a class="category__link" href="#">Хлопья</a>
+                     <img class="category__img" src="images/content/category-40.jpg" alt="#">
+                  </li>
+               </ul>
+               <!-- /.category__menu -->
+            </div>
+            <!-- /.category__items -->
+         </div>
+         <!-- /.category -->
+
+
+         <div class="main__wrap">
+            <ul class="main__breadcrumb">
+               <li class="main__breadcrumb-link"><a href="index.html">Главная</a></li>
+               <li class="main__breadcrumb-link"><a href="#">Категории</a></li>
+               <li class="main__breadcrumb-link">Энергетики</li>
+            </ul>
+            <h2 class="main__items-title">Энергетики</h2>
+            <!-- ./breadcrumb -->
+            <div class="main__items">
+               <div class="main__item">
+                  <img class="main__item-img" src="images/content/category-21.jpg" alt="img">
+                  <div class="main__item-name">Энергетик Adrenaline Rush </div>
+                  <div class="main__item-weight">0.5 л</div>
+
+                  <div class="main__item-counter counter">
+                     <button class="main__item-btn counter-btn"> <img src="images/icons/icon-add.svg" alt="#">
+                     </button>
+                     <span class="main__item-price counter-price">129 ₽</span>
+                     <button class="main__item-btn counter-btn"> <img src="images/icons/icon-minus.svg" alt="#">
+                     </button>
+                  </div>
+                  <!-- /.main__item-counter -->
+
+                  <div class="discount">- 25 %</div>
+               </div>
+               <!-- /.main__item -->
+
+            </div>
+            <!-- /.main__items -->
+         </div>
+         <!-- /.main__wrap -->
+      </main>
+      <!-- /.mian -->
+
+
+      <aside class="right">
+         <div class="right__sidebar">
+            <div class="right__sidebar-top">
+
+               <a class="right__sidebar-adress" href="#">
+                  Советская, 72
+                  <img src="images/icons/DownArrow.svg" alt="#">
+               </a>
+
+               <div class="right__sidebar-time">Доствка до <b>30</b> минут</div>
+            </div>
+            <!-- /.right__sidebar-top -->
+
+            <div class="right__sidebar-items">
+               <div class="right__sidebar-item">
+                  <img class="right__sidebar-img" src="images/content/category-21.jpg" alt="#">
+                  <div class="right__sidebar-info">
+
+                     <p class="right__sidebar-text">
+                        Энергетик Adrenaline Rush
+                     </p>
+
+                     <div class="right__sidebar-weight">0.5 л</div>
+                     <div class="right__sidebar-price">129 ₽</div>
+
+                     <div class="right__sidebar-counter counter">
+                        <button class="right__sidebar-btn counter-btn">
+                           <img src="images/icons/icon-add.svg" alt="#">
+                        </button>
+
+                        <span class="right__sidebar-num counter-price">1</span>
+
+                        <button class="right__sidebar-btn counter-btn">
+                           <img src="images/icons/icon-minus.svg" alt="#">
+                        </button>
+                     </div>
+                     <!-- /.right__sidebar-counter -->
+
+                  </div>
+                  <!-- /.right__sidebar-info -->
+
+                  <button class="right__btn-close close-btn">
+                     <img class="burger-btn" src="images/icons/icon-close.svg" alt="#">
+                  </button>
+               </div>
+               <!-- /.right__sidebar-item -->
+
+               <div class="right__sidebar-item">
+                  <img class="right__sidebar-img" src="images/content/category-21.jpg" alt="#">
+                  <div class="right__sidebar-info">
+
+                     <p class="right__sidebar-text">
+                        Энергетик Adrenaline Rush
+                     </p>
+
+                     <div class="right__sidebar-weight">0.5 л</div>
+                     <div class="right__sidebar-price">129 ₽</div>
+
+                     <div class="right__sidebar-counter counter">
+                        <button class="right__sidebar-btn counter-btn">
+                           <img src="images/icons/icon-add.svg" alt="#">
+                        </button>
+
+                        <span class="right__sidebar-num counter-price">1</span>
+
+                        <button class="right__sidebar-btn counter-btn">
+                           <img src="images/icons/icon-minus.svg" alt="#">
+                        </button>
+                     </div>
+                     <!-- /.right__sidebar-counter -->
+
+                  </div>
+                  <!-- /.right__sidebar-info -->
+
+                  <button class="right__btn-close close-btn">
+                     <img class="burger-btn" src="images/icons/icon-close.svg" alt="#">
+                  </button>
+               </div>
+               <!-- /.right__sidebar-item -->
+            </div>
+            <!-- /.right__sidebar-items -->
+
+            <div class="right__sidebar-bottom">
+               <div class="right__sidebar-sum">
+                  <span class="right__sidebar-sum">Итого:</span>
+                  100000 ₽
+               </div>
+
+               <button class="right__btn-pay button-orange">Продолжить</button>
+            </div>
+            <!-- /.right__sidebar-bottom -->
+         </div>
+         <!-- /.right__sidebar -->
+      </aside>
+      <!-- /.right -->
+
+      <!-- MODAL WINDOW -->
+
+      <div class="burger modal">
+         <div class="burger__wrap side-wrap">
+            <a class="header__logo" href="index.html">
+               <img src="images/icons/logo.svg" alt="#logo">
+            </a>
+
+            <div class="header__btns">
+               <button class="header__btn-login header__btn">
+                  <img src="images/icons/icon-user.svg" alt="user">
+                  Войти
+               </button>
+
+               <button class="header__btn-reg header__btn">
+                  <img src="images/icons/icon-user.svg" alt="user">
+                  Регистрация
+               </button>
+
+               <button class="burger__btn-close close-btn">
+                  <img class="burger-btn" src="images/icons/icon-close.svg" alt="#">
+               </button>
+            </div>
+         </div>
+         <!-- <!- /.burger -->
+      </div>
+      <!-- /.burger__wrap -->
+
+      <div class="user modal">
+         <div class="user__wrap side-wrap">
+            <div class="user__info">
+               <div class="user__name">Григорий</div>
+               <div class="user__phone">+7(910)-54-94-32</div>
+               <!-- /.user__name,phone -->
+            </div>
+            <!-- /.user__info -->
+
+            <div class="user__items">
+               <div class="user__item user__item-adress">
+                  <img class="user__item-img" src="images/icons/icon-location.svg" alt="#">
+                  <div class="user__item-text">Адреса</div>
+               </div>
+               <!-- /.user__item -->
+
+               <div class="user__item  user__item-orders">
+                  <img class="user__item-img" src="images/icons/icon-shopping-cart.svg" alt="#">
+                  <div class="user__item-text">Заказы</div>
+               </div>
+               <!-- /.user__item -->
+            </div>
+            <!-- /.user__items -->
+
+            <div class="user__btns">
+               <a class="user__btn button button-orange" href="https://web.telegram.org/k/">Связаться с нами</a>
+               <button class="user__btn button button-orange">Выйти</button>
+            </div>
+            <!-- /.user__btns -->
+
+            <button class="user__btn-close close-btn">
+               <img class="user-btn" src="images/icons/icon-close.svg" alt="#">
+            </button>
+         </div>
+         <!-- /.user__wrap -->
+      </div>
+      <!-- /.user -->
+
+      <div class="orders modal">
+         <div class="orders__wrap side-wrap">
+            <div class="orders__title">Заказы</div>
+            <!-- /.orders__title -->
+            <div class="orders__item">
+               <img class="orders__item-img" src="images/content/category-21.jpg" alt="#">
+               <div class="orders__item-info">
+                  <div class="orders__item-name">Энергетик Adrenaline Rush</div>
+                  <div class="orders__item-price">258 ₽</div>
+                  <div class="orders__item-count">2 шт</div>
+                  <div class="orders__item-time">10.10.24</div>
+               </div>
+            </div>
+            <!-- /.orders__item -->
+
+            <div class="orders__item">
+               <img class="orders__item-img" src="images/content/category-21.jpg" alt="#">
+               <div class="orders__item-info">
+                  <div class="orders__item-name">Энергетик Adrenaline Rush</div>
+                  <div class="orders__item-price">258 ₽</div>
+                  <div class="orders__item-count">2 шт</div>
+                  <div class="orders__item-time">10.10.24</div>
+               </div>
+            </div>
+            <!-- /.orders__item -->
+
+            <div class="orders__item">
+               <img class="orders__item-img" src="images/content/category-21.jpg" alt="#">
+               <div class="orders__item-info">
+                  <div class="orders__item-name">Энергетик Adrenaline Rush</div>
+                  <div class="orders__item-price">258 ₽</div>
+                  <div class="orders__item-count">2 шт</div>
+                  <div class="orders__item-time">10.10.24</div>
+               </div>
+            </div>
+            <!-- /.orders__item -->
+
+            <div class="orders__item">
+               <img class="orders__item-img" src="images/content/category-21.jpg" alt="#">
+               <div class="orders__item-info">
+                  <div class="orders__item-name">Энергетик Adrenaline Rush</div>
+                  <div class="orders__item-price">258 ₽</div>
+                  <div class="orders__item-count">2 шт</div>
+                  <div class="orders__item-time">10.10.24</div>
+               </div>
+            </div>
+            <!-- /.orders__item -->
+
+            <div class="orders__item">
+               <img class="orders__item-img" src="images/content/category-21.jpg" alt="#">
+               <div class="orders__item-info">
+                  <div class="orders__item-name">Энергетик Adrenaline Rush</div>
+                  <div class="orders__item-price">258 ₽</div>
+                  <div class="orders__item-count">2 шт</div>
+                  <div class="orders__item-time">10.10.24</div>
+               </div>
+            </div>
+            <!-- /.orders__item -->
+
+            <div class="orders__item">
+               <img class="orders__item-img" src="images/content/category-21.jpg" alt="#">
+               <div class="orders__item-info">
+                  <div class="orders__item-name">Энергетик Adrenaline Rush</div>
+                  <div class="orders__item-price">258 ₽</div>
+                  <div class="orders__item-count">2 шт</div>
+                  <div class="orders__item-time">10.10.24</div>
+               </div>
+            </div>
+            <!-- /.orders__item -->
+
+            <div class="orders__item">
+               <img class="orders__item-img" src="images/content/category-21.jpg" alt="#">
+               <div class="orders__item-info">
+                  <div class="orders__item-name">ЭнергетикЭнергетикЭнергетикЭнергетикAdrenaline Rush</div>
+                  <div class="orders__item-price">258 ₽</div>
+                  <div class="orders__item-count">2 шт</div>
+                  <div class="orders__item-time">10.10.24</div>
+               </div>
+            </div>
+            <!-- /.orders__item -->
+
+            <button class="orders__btn-close close-btn">
+               <img class="orders-btn" src="images/icons/icon-close.svg" alt="#">
+            </button>
+
+            <button class="orders__btn-back back-btn">
+               <img src="images/icons/icon-arrow-prew.svg" alt="#">
+            </button>
+         </div>
+         <!-- /.orders__wrap -->
+      </div>
+      <!-- /.orders -->
+
+      <div class="reg modal">
+         <div class="reg__wrap">
+            <div class="reg__title">Регистрация</div>
+            <!-- /.reg__title -->
+            <form class="reg__form">
+               <input class="reg__input" placeholder="Имя" type="text">
+               <input class="reg__input" placeholder="e-mail" type="email">
+               <input class="reg__input" placeholder="Пароль" type="password">
+               <input class="reg__input" placeholder="Повторите пароль" type="password">
+               <input class="reg__input" value="+7" placeholder="Номер" type="tel" />
+            </form>
+            <!-- /.reg__form -->
+            <button class="reg__btn button button-orange" type="submit">Зарегестрировать</button>
+
+            <button class="reg__btn-close close-btn">
+               <img class="user-btn" src="images/icons/icon-close.svg" alt="#">
+            </button>
+         </div>
+         <!-- /.reg__wrap -->
+      </div>
+      <!-- /.reg -->
+
+      <div class="login modal">
+         <div class="login__wrap">
+            <div class="login__title">Войти</div>
+            <!-- /.login__title -->
+            <form class="login__form">
+               <input class="login__input" placeholder="e-mail" type="email">
+               <input class="login__input" placeholder="Пароль" type="password">
+               <input class="login__input" value="+7" placeholder="Номер" type="tel" />
+            </form>
+            <!-- /.login__form -->
+            <button class="login__btn button button-orange" type="submit">Войти</button>
+            <button class="login__btn button button-orange relogin__btn" type="submit">Восстановить
+               пароль</button>
+
+            <button class="login__btn-close close-btn">
+               <img class="user-btn" src="images/icons/icon-close.svg" alt="#">
+            </button>
+         </div>
+         <!-- /.login__wrap -->
+      </div>
+      <!-- /.login -->
+
+      <div class="relogin modal">
+         <div class="relogin__wrap">
+            <div class="relogin__title">Сброс пароля</div>
+
+            <!-- /.relogin__title -->
+            <form class="relogin__form">
+               <input class="relogin__input" placeholder="e-mail" type="email">
+               <input class="relogin__input" placeholder="Новый пароль" type="password">
+               <input class="relogin__input" placeholder="Повторите пароль" type="password">
+               <input class="relogin__input" value="+7" placeholder="Номер" type="tel" />
+            </form>
+            <!-- /.relogin__form -->
+            <button class="relogin__btn button button-orange" type="submit">Сбросить</button>
+
+            <button class="relogin__btn-close close-btn">
+               <img class="user-btn" src="images/icons/icon-close.svg" alt="#">
+            </button>
+
+            <button class="relogin__btn-back back-btn">
+               <img src="images/icons/icon-arrow-prew.svg" alt="#">
+            </button>
+         </div>
+         <!-- /.relogin__wrap -->
+      </div>
+      <!-- /.relogin -->
+
+
+      <div class="adress__edit modal">
+         <div class="adress__edit-wrap side-wrap">
+            <div class="adress__edit-title">Срхраненные адреса</div>
+            <div class="adress__edit-items">
+               <div class="adress__edit-name">
+                  Улица Советская, д.72
+               </div>
+               <div class="adress__edit-name">
+                  Улица Советская, д.72
+               </div>
+            </div>
+            <!-- /.adress__edit-items -->
+
+            <button class="adress__edit-btn button button-orange" type="#">Добавить</button>
+
+
+            <button class="adress__edit-btn-close close-btn">
+               <img class="user-btn" src="images/icons/icon-close.svg" alt="#">
+            </button>
+            <button class="adress__edit-btn-back back-btn">
+               <img src="images/icons/icon-arrow-prew.svg" alt="#">
+            </button>
+
+         </div>
+         <!-- /.adress__edit-wrap -->
+      </div>
+      <!-- /.adress__edit -->
+
+
+      <div class="adress modal">
+         <div class="adress__wrap side-wrap">
+            <div class="adress__adress-info">
+
+               <h3 class="adress__title">Адрес</h3>
+
+               <form class="adress__form" action="#">
+
+                  <div class="adress__form-adress">Советская, 72</div>
+
+                  <div class="adress__wrap-input">
+
+                     <p class="pay__input-text">Улица</p>
+                     <input class="pay__input" type="text">
+
+                     <p class="pay__input-text">Дом</p>
+                     <input class="pay__input" type="text">
+
+                     <p class="adress__input-text">Квартира/Офис</p>
+                     <input class="pay__input" type="text">
+
+                     <p class="adress__input-text">Этаж</p>
+                     <input class="adress__input" type="text">
+
+                     <p class="adress__input-text">Подъезд</p>
+                     <input class="adress__input" type="text">
+
+                     <p class="adress__input-text">Домофон</p>
+                     <input class="pay__input" type="text">
+
+                  </div>
+                  <!-- /.adress__wrap-input -->
+            </div>
+            <!-- /.adress__adress-info -->
+            <button class="adress__btn button button-orange">
+               Сохранить
+            </button>
+            <!-- /.adress__btn -->
+
+            <button class="adress__btn-close close-btn">
+               <img src="images/icons/icon-close.svg" alt="#">
+            </button>
+
+            <button class="adress__btn-back back-btn">
+               <img src="images/icons/icon-arrow-prew.svg" alt="#">
+            </button>
+
+         </div>
+         <!-- /.adress__wrap -->
+      </div>
+      <!-- /.adress -->
+
+      <div class="pay modal">
+         <div class="pay__wrap side-wrap">
+
+            <div class="pay__form-items" action="#">
+
+               <h2 class="pay__title">Адрес и оплата</h2>
+
+               <div class="pay__input-item">
+                  <p class="pay__input-text">Улица</p>
+                  <input class="pay__input" type="text">
+               </div>
+               <!-- /.pay__input-item -->
+
+               <div class="pay__input-item">
+                  <p class="pay__input-text">Дом</p>
+                  <input class="pay__input" type="text">
+               </div>
+               <!-- /.pay__input-item -->
+
+               <div class="pay__input-item">
+                  <p class="pay__input-text">Квартира/Офис</p>
+                  <input class="pay__input" type="text">
+               </div>
+               <!-- /.pay__input-item -->
+
+               <div class="pay__input-item">
+                  <p class="pay__input-text">Этаж</p>
+                  <input class="pay__input" type="text">
+               </div>
+               <!-- /.pay__input-item -->
+
+               <div class="pay__input-item">
+                  <p class="pay__input-text">Подъезд</p>
+                  <input class="pay__input" type="text">
+               </div>
+               <!-- /.pay__input-item -->
+
+               <div class="pay__input-item">
+                  <p class="pay__input-text">Домофон</p>
+                  <input class="pay__input" type="text">
+               </div>
+               <!-- /.pay__input-item -->
+
+               <div class="pay__input-item">
+                  <textarea class="pay__form-textarea" placeholder="Коментарий">
+                        </textarea>
+               </div>
+               <!-- /.pay__input-item -->
+            </div>
+            <!-- /.pay__input-items -->
+
+            <div class="pay__info">
+               <div class="pay__sum">
+                  <span class="pay__sum">Итого:</span>
+                  100000 ₽
+               </div>
+               <!-- /.pay__sum -->
+
+               <div class="pay__card">
+                  оплата с карты *****90
+                  <img class="pay__card-img" src="images/icons/arrorw-next.svg" alt="#">
+               </div>
+               <!-- /.pay__card -->
+
+               <button class="pay__btn button button-orange">
+                  Оплатить
+               </button>
+               <!-- /.pay__btn -->
+               <button class="pay__btn-close close-btn">
+                  <img class="burger-btn" src="images/icons/icon-close.svg" alt="#">
+               </button>
+            </div>
+            <!-- /.pay-info -->
+         </div>
+         <!-- /.pay__wrap -->
+      </div>
+      <!-- /.pay -->
+
+      <div class="card modal">
+         <div class="card__wrap">
+            <div class="card__item recomend">
+               <img class="card__img" src="images/content/category-21.jpg" alt="#">
+
+               <div class="card__recomend-title">Посмотрите ещё</div>
+
+               <div class="card__recomends">
+                  <div class="card__item-recomend">
+                     <img class="card__recomend-img" src="images/content/category-2.jpg" alt="img">
+                     <div class="card__recomend-name">Хлеб тартин, пшенично-ржаной, половинка, нарезка </div>
+                     <div class="card__recomend-weight">300 г</div>
+
+                     <div class="card__recomend-counter counter">
+                        <button class="card__recomend-btn counter-btn"> <img src="images/icons/icon-add.svg" alt="#">
+                        </button>
+                        <span class="card__recomend-price counter-price">60 ₽</span>
+                        <button class="card__recomend-btn counter-btn"> <img src="images/icons/icon-minus.svg" alt="#">
+                        </button>
+                     </div>
+                     <!-- /.card__recomend-counter counter-->
+                  </div>
+                  <!-- /.card__item-recomend -->
+                  <div class="card__item-recomend">
+                     <img class="card__recomend-img" src="images/content/category-2.jpg" alt="img">
+                     <div class="card__recomend-name">Хлеб тартин, пшенично-ржаной, половинка, нарезка </div>
+                     <div class="card__recomend-weight">300 г</div>
+
+                     <div class="card__recomend-counter counter">
+                        <button class="card__recomend-btn counter-btn"> <img src="images/icons/icon-add.svg" alt="#">
+                        </button>
+                        <span class="card__recomend-price counter-price">60 ₽</span>
+                        <button class="card__recomend-btn counter-btn"> <img src="images/icons/icon-minus.svg" alt="#">
+                        </button>
+                     </div>
+                     <!-- /.card__recomend-counter counter-->
+                  </div>
+                  <!-- /.card__item-recomend -->
+                  <div class="card__item-recomend">
+                     <img class="card__recomend-img" src="images/content/category-2.jpg" alt="img">
+                     <div class="card__recomend-name">Хлеб тартин, пшенично-ржаной, половинка, нарезка </div>
+                     <div class="card__recomend-weight">300 г</div>
+
+                     <div class="card__recomend-counter counter">
+                        <button class="card__recomend-btn counter-btn"> <img src="images/icons/icon-add.svg" alt="#">
+                        </button>
+                        <span class="card__recomend-price counter-price">60 ₽</span>
+                        <button class="card__recomend-btn counter-btn"> <img src="images/icons/icon-minus.svg" alt="#">
+                        </button>
+                     </div>
+                     <!-- /.card__recomend-counter counter-->
+                  </div>
+                  <!-- /.card__item-recomend -->
+                  <div class="card__item-recomend">
+                     <img class="card__recomend-img" src="images/content/category-22.jpg" alt="img">
+                     <div class="card__recomend-name">Хлеб тартин, пшенично-ржаной, половинка, нарезка </div>
+                     <div class="card__recomend-weight">300 г</div>
+
+                     <div class="card__recomend-counter counter">
+                        <button class="card__recomend-btn counter-btn"> <img src="images/icons/icon-add.svg" alt="#">
+                        </button>
+                        <span class="card__recomend-price counter-price">60 ₽</span>
+                        <button class="card__recomend-btn counter-btn"> <img src="images/icons/icon-minus.svg" alt="#">
+                        </button>
+                     </div>
+                     <!-- /.card__recomend-counter counter-->
+                  </div>
+                  <!-- /.card__item-recomend -->
+
+               </div>
+               <!-- /.card__recomends-->
+            </div>
+            <!-- /.card__item -->
+
+
+            <div class="card__item card__about">
+               <div class="card__item-name">Энергетик Adrenaline Rush </div>
+               <p class="card__item-text">
+                  Безалкогольный энергетик с классическим вкусом. Содержит таурин, L-карнитин, кофеин, экстракт гуараны
+                  и женьшеня, а также витамины группы B. Бодрит и тонизирует. Ещё вкуснее, если пить охлаждённым.
+                  Безалкогольный энергетик с классическим вкусом. Содержит таурин, L-карнитин, кофеин, экстракт гуараны
+                  и женьшеня, а также витамины группы B. Бодрит и тонизирует. Ещё вкуснее, если пить охлаждённым.
+               </p>
+               <!-- /.card__about -->
+
+               <div class="card__item-weight">0.5 л</div>
+
+               <div class="card__btns">
+                  <div class="card__counter counter">
+                     <button class="card__btn counter-btn"> <img src="images/icons/icon-add.svg" alt="#">
+                     </button>
+                     <span class="card__num counter-price">129 ₽</span>
+                     <button class="card__btn counter-btn"> <img src="images/icons/icon-minus.svg" alt="#">
+                     </button>
+                  </div>
+                  <!-- /.right__counter -->
+               </div>
+               <!-- /.card__btns -->
+            </div>
+            <!-- /.card__item , card__about -->
+
+            <button class="card__btn-close close-btn">
+               <img class="user-btn" src="images/icons/icon-close.svg" alt="#">
+            </button>
+         </div>
+         <!-- /.card__wrap -->
+      </div>
+      <!-- /.card -->
+
+      <div class="rating modal">
+         <div class="rating__wrap">
+
+            <h3 class="rating__title">Оцените сервис приложения</h3>
+            <!-- /.rating__title -->
+            <div class="rating-area">
+               <input type="radio" id="star-5" name="rating" value="5">
+               <label for="star-5" title="Оценка «5»"></label>
+               <input type="radio" id="star-4" name="rating" value="4">
+               <label for="star-4" title="Оценка «4»"></label>
+               <input type="radio" id="star-3" name="rating" value="3">
+               <label for="star-3" title="Оценка «3»"></label>
+               <input type="radio" id="star-2" name="rating" value="2">
+               <label for="star-2" title="Оценка «2»"></label>
+               <input type="radio" id="star-1" name="rating" value="1">
+               <label for="star-1" title="Оценка «1»"></label>
+            </div>
+            <!-- /.rating__stars -->
+            <button class="rating__btn button-orange" type="submit">отправить</button>
+
+            <button class="rating__btn-close close-btn">
+               <img class="rating-btn" src="images/icons/icon-close.svg" alt="#">
+            </button>
+         </div>
+         <!-- /.rating__wrap -->
+
+      </div>
+      <!-- /.rating -->
+
+   </section>
+   <!-- /.desctop -->
+   </div>
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   <script type="text/javascript" src="js/slick.min.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
